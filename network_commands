@@ -13,3 +13,25 @@ hostname -d
 hostname -f
 hostname -i
 
+
+#configure a network
+ifconfig <interface> up
+infonfig <interface> down
+
+#NetStat - show all connections
+$netstat
+$netstat -r # show routing table
+$netstat -i # also look a the output for the ifconfig and compare.
+$netstat users # show users
+
+
+#PING - uses ICMP protocol 
+ping google.com 
+
+#nslookup
+$nslookup google.com
+
+
+#TraceRoute
+traceroute google.com
+
