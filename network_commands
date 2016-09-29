@@ -1,0 +1,15 @@
+file to check 
+- /etc/resolv.conf
+- /ect/hosts # this one has hostname
+- /etc/naswitch.conf
+
+
+Redhat/Fedora/Centos
+/etc/sysconfig/network
+/etc/sysconfig/network-scripts/ifcfg-device
+
+hostname
+hostname -d
+hostname -f
+hostname -i
+
