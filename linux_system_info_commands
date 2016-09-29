@@ -1,0 +1,17 @@
+#Some useful commands to check system version and more
+#author: Ankan Basu; Java programmer; basu.ankan@gmail.com
+
+
+#Kernel Version
+$uname -a
+
+#Distro info
+$lsb_release -a # Linux Standard Base
+
+
+$cat /etc/lsb-release
+
+$cat /etc/debian-version
+
+
+
