@@ -13,5 +13,7 @@ $cat /etc/lsb-release
 
 $cat /etc/debian-version
 
-
+#MEMORY
+free -kh
+cat /proc/meminfo
 
