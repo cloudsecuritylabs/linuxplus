@@ -1,0 +1,7 @@
+#Create a new archive
+$tar cvf name_of_archive.tar name_of_directory/
+
+#Extract from a tar archive
+$ tat xvf name_of_archive.tar
+
+

@@ -1,0 +1,10 @@
+cat
+less
+more
+
+head
+tail
+
+#number the lines
+dmesg | cat -n | tail -n 20
+dmesg | cat -n | head

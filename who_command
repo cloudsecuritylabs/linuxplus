@@ -1,0 +1,12 @@
+who 
+
+echo "#############################"
+who -q # for counts of users
+
+echo "#############################"
+echo "who with header"
+who -H # for users with header
+
+echo "#############################"
+echo "Show the last boot time and date"
+who -b # display time and date for the last boot.
