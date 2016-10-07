@@ -1,0 +1,7 @@
+#sorted list of bash users
+grep bash /etc/passwd | cut -d: | sort > bashusers.txt
+
+#sorted list of all logged on users
+who | cut -d" " | sort > onlineusers.txt
+
+

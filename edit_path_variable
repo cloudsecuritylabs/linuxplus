@@ -1,0 +1,3 @@
+#Shell does not look inside the current working direcroty.
+#To include the current directory in the PATH
+PATH=$PATH:

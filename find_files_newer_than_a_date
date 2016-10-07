@@ -1,0 +1,8 @@
+Find all files created after January 30, 2010
+touch -t 201001302359 marker_date
+find . -type f -newer marker_date
+
+
+#another way
+find . -type f - newerat "20100130 23:59:59"
+
