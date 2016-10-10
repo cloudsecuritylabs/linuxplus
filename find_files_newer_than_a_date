@@ -6,3 +6,7 @@ find . -type f -newer marker_date
 #another way
 find . -type f - newerat "20100130 23:59:59"
 
+#find all .txt files created in September 2009
+touch -t 200908312359 marker_start
+touch -t 200910010000 marker_end
+find . -type f -name "*.txt" -newer marker_start ! -newer marker_end

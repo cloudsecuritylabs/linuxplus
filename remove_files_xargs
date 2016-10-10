@@ -1,0 +1,4 @@
+find ./ -name "*~" | xargs rm
+
+# or we can use back tick.
+rm `find ./ -name "*~"`
