@@ -1,0 +1,23 @@
+# What command can you use to add /usr/local/bigprog/bin to the end of the PATH environment variable?
+export PATH=$PATH:/usr/local/bigprog/bin
+
+
+Who can set the environment variables for an ordinary user?
+
+--either the root or the user. But the users preferences takes precedance.
+
+Where is the best location for the current directory indicator(.) to reside in root;s PATH environment variable>
+
+--no where. it should not be in roots path at all.
+
+After using a text editor to create shell script, how can you make it executable>
+--Set one or more executable bits usign chmod.
+
+A
+A
+
+
+
+
+D
+

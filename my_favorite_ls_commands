@@ -1,0 +1,8 @@
+# sort by file modification time.
+ls -lt
+
+# sort by file modification in reverse order
+ls -ltr
+
+# sort by file size
+ls -lS
