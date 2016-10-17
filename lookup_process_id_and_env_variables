@@ -1,0 +1,14 @@
+#Follow direction. TO find process id 
+ps aux | grep gedit
+
+#there is a pgrep command available too
+pgrep gedit
+
+
+#to look for the env variables associated with gedit, run
+sudo cat /proc/3101/environ | tr '\0' '\n'
+
+#to see all env variables, type env
+
+
+
