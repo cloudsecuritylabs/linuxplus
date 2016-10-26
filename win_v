@@ -1,0 +1,5 @@
+#Lynda Test script to shut down windows 
+@echo off
+echo Message here
+shutdown -s -f -t 15 -c "time to go to sleep!"
+
